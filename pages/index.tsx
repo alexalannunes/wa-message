@@ -3,8 +3,6 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import InputMask from "react-input-mask";
 
-console.log(process.env);
-
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
